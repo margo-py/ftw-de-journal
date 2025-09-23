@@ -12,7 +12,7 @@ First, I established a connection to the database server using DBeaver:
 
 - Opened DBeaver and created a new ClickHouse connection
 - Configured connection with the following parameters:
-    - Host IP: 54.87.106.52
+    - Host IP: 54.87.106.52 
     - Username: chinook
     - Password: chinook
 
