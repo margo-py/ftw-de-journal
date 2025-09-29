@@ -25,7 +25,7 @@
         - [Sorting algorithms](#sorting-algorithms)
     - [🐍 Writing Efficient Python](#-writing-efficient-python)
     - [🧪 Intermediate DBT](#-intermediate-dbt)
-
+  - [📊 Groupings](#-groupings)  
 ## 📊 Datacamp
 ### Intro to Relational Databases in SQL
 (Timo Grossenbacher - Journalist and Data Scientist)
@@ -304,16 +304,76 @@ Importance of DSA
       - Pre order (current -> left -> right)
       ![Pre order](https://skilled.dev/images/pre-order-traversal.gif)
 
+   ##### Depth First Search (DFS)
+   - Printing book titles alphabetically
+       - I still don't get this basta may go 'deep'
+       
+       **Problem sample** Book titles A-Z using **DFS in order traversal**
+       👉 In a BST:
+         - Every node’s left child must be smaller (alphabetically earlier).
+         - Every node’s right child must be larger (alphabetically later).
+
+      **Problem sample:** Using pre-order traversal with Polish notation
+      (x wasnt able to try)
+      👉 So: Binary Search is best for sorted lists.
+      If the list is unsorted, then you either:
+         Do linear search, or
+
+      **Implementing DFS for graphs**
+
+      ** BFS **
+
 
 
 
 ### Chapter 4 
 #### Sorting algorithms
+   ##### 1 Bubble Sort
+   - nested loop
+   - swapping 1st vs 2nd var
+      - is_sorted = boolean
+   O(n^2)
+   Omega(n^2)
+   Best case Omega(n)
+
+   ##### 2 Selection Sort
+   - determine lowest value first. swap it with element 1
+   - do it allover again
+
+
+   ##### 3 Insertion Sort
+   - shifting. 
+
+   ##### 4 Merge 
+   - Divide and conquer
+   - Divide
+      Smaller subproblems
+   - Conquer
+      - recursion
+   - Combine
+
+   ##### 5 Quicksort
+   - Divide and conquer principle
+   - Partiction
+      -'Pivot'
+      - smaller val - left
+      - larger val - right
+      - Hoare's partition approach
+         - pivot is first element
+      - AMPANGET NITO BAT GANON pero mukhang efficient (quick eh)
 
 
 
 ### 🐍 Writing Efficient Python
 ####  ![Python Rules](https://hanzhu.dev/content/images/size/w1200/2019/03/zen_of_python_poster_by_ewjoachim-d6kg2kb.png)
+
+
+
+
+
+### 🧪 ETL and ELT in Python
+
+
 
 
 
@@ -328,3 +388,9 @@ Importance of DSA
    - custom data test
    - Singular test with Jinja 
 - Reusable tests `tests/generic`
+
+
+
+## 📊 Groupings
+
+- On clickhouse 
