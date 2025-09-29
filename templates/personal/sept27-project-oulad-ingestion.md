@@ -318,7 +318,6 @@ Data visualization is available through Metabase at:
 
 http://54.87.106.52:3001/browse/databases
 
-![Database Schema](https://i.imgur.com/ItRhvHh.png)
 
 ## Summary
 
