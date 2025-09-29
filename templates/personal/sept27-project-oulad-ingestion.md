@@ -22,7 +22,7 @@ This pipeline will perform **locally ingested CSV** processing with the followin
 
 - **Most CSV files** will be ingested locally and named with the convention: `oulad_grp3___[table_name]`
   - Examples: `oulad_grp3___student_assessment`, `oulad_grp3___courses`, etc.
-- **Student VLE table exception**: The `studentVle.csv` file will NOT be ingested locally since it was already processed and loaded to the remote server by the instructor due to its large file size. We will reference this existing table from the `raw` schema.
+- **Student VLE table exception**: The `studentVle.csv` file will NOT be ingested locally since it was already processed and loaded to the remote server by Sir Myk due to its large file size. We will reference this existing table from the `raw` schema.
 
 ## Project Structure
 
