@@ -8,7 +8,7 @@ These notes are what I personally took from lessons.
 - sounds hard to me. 
 - Sounds like Quantum Computing.
 - Strategically divide tasks to finish it faster.
-- Like dividing data cleaning tasks to Rizza, She Ahn, Wish and CJ.
+- Like dividing data cleaning tasks to grpmates.
   - But instead of dividing, I did the task alone.
 - Now that I broke it down, I am able to understand it. 
     - Learned **Communication Overhead**.
